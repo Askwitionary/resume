@@ -1,0 +1,268 @@
+%% If you want to use \orcid or the
+%% academicons icons, add "academicons"
+%% to the \documentclass options.
+%% Then compile with XeLaTeX or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[9pt,a4paper]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages.
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
+%% When using the "academicons" option,
+%% Compile with LuaLaTeX for best results. If you
+%% want to use XeLaTeX, you may need to install
+%% Academicons.ttf in your operating system's font %% folder.
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage[UTF8]{ctex}
+\usepackage{multicol}
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+\setlength{\columnsep}{1cm}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{段凌霄}
+\tagline{算法工程师}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+\photo{2.5cm}{2by2.jpg}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \phone{15712974785}
+  \email{duanlingxiao1219@sina.com}
+  \location{北京}
+  \mailaddress{西城区黄寺大街23号}
+  \homepage{askwitionary.github.io}
+%  \twitter{@marissamayer}
+%  \linkedin{linkedin.com/in/marissamayer}
+%   \github{github.com/askwitionary} % I'm just making this up though.
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+
+\cvsection[page1sidebar]{教育背景}
+
+\cvevent{\textbf{圣路易斯华盛顿大学}}{计算机科学与技术 \space 硕士}{2015.08 -- 2017.06}{密苏里， 美国}
+\begin{itemize}
+	\item 数据挖掘与机器学习方向
+	\item 对学校医学院数据库中Alzheimer's Disease病人的DNA数据进行挖掘
+\end{itemize}
+
+\divider
+
+\cvevent{\textbf{惠提尔学院}}{数学与应用数学 \space 学士}{2010.09 -- 2014.05}{加利福尼亚， 美国}
+\begin{itemize}
+	\item 2011曾获Dean's List提名
+	\item 连续四年获得半额奖学金（每年22500美金）
+\end{itemize}
+
+\cvsection[]{工作经历}
+
+\cvevent{\textbf{算法工程师}}{北京三点一刻科技有限公司}{2018.05 -- 2018.09}{北京}
+\begin{itemize}
+\item 研发并调试平台项目、甲乙方的多维征信、匹配、推荐逻辑与算法
+
+\item 以Tensorflow的CNN为基础，搭建图像识别模型，帮助爬虫与自动化测试同事解决自动识别图形验证码的问题
+
+\item 图片文字转文本的优化、聊天记录截屏中emoji识别
+
+\item 探索、学习各个相关开源项目的代码和文档并基于可能用到的场景做demo，如LSTM聊天交互、自动写稿、趋势预测；决策树、随机森林分类；CNN文本、图像分类；NLP相关：分词、句法分析、词向量、关键词提取等
+\end{itemize}
+
+\divider
+
+\cvevent{\textbf{数据库开发、管理员}}{comScore, Inc.}{2017.07 -- 2017.08}{弗吉尼亚， 美国}
+\begin{itemize}
+\item 根据客户需求为客户创建数据库逻辑与框架设计
+\item 为客户提供数据库日常维护与数据备份服务
+\end{itemize}
+
+\divider
+
+\cvevent{\textbf{数据分析师}}{AIE International Inc.}{2014.08 --  2015.06}{新泽西、加利福尼亚， 美国}
+\begin{itemize}
+\item 基于美国各大学各学院多维度数据，为客户提供留学咨询与职业规划服务
+\item 协助创建、维护客户信息库，学校、学院、研究项目库并提供数据分析与推荐
+\end{itemize}
+
+%\divider
+%
+%\cvevent{Product Manager \& UI Lead}{Google}{Oct 2001 -- July 2005}{Palo Alto, CA}
+%
+%\begin{itemize}
+%\item Appointed by the founder Larry Page in 2001 to lead the Product Management and User Interaction teams
+%\item Optimized Google's homepage and A/B tested every minor detail to increase usability (incl.~spacing between words, color schemes and pixel-by-pixel element alignment)
+%\end{itemize}
+
+% \divider
+
+% \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
+
+% \begin{itemize}
+% \item Joined the company as employe \#20 and female employee \#1
+% \item Developed targeted advertisement in order to use user's search queries and show them related ads
+% \end{itemize}
+
+%\cvsection{A Day of My Life}
+%
+%% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+%% \wheelchart{outer radius}{inner radius}{
+%% comma-separated list of value/text width/color/detail}
+%% Some ad-hoc tweaking to adjust the labels so that they don't overlap
+%\wheelchart{1.5cm}{0.5cm}{%
+%  10/10em/accent!30/Sleeping \& dreaming about work,
+%  25/9em/accent!60/Public resolving issues with Yahoo!\ investors,
+%  5/13em/accent!10/\footnotesize\\[1ex]New York \& San Francisco Ballet Jawbone board member,
+%  20/15em/accent!40/Spending time with family,
+%  5/8em/accent!20/\footnotesize Business development for Yahoo!\ after the Verizon acquisition,
+%  30/9em/accent/Showing Yahoo!\ employees that their work has meaning,
+%  5/8em/accent!20/Baking cupcakes
+%}
+
+\clearpage
+
+%\cvsection[page2sidebar]{Publications}
+%
+%\nocite{*}
+%
+%\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+%
+%\divider
+%
+%\printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}}, type=article]
+%
+%\divider
+%
+%\printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
+\begin{fullwidth}
+	
+	\cvsection[]{项目经历}
+	
+	\begin{multicols}{2}
+		
+			\cvevent{\textbf{基于深度学习对图像、视频中物体进行识别与追踪}}{个人项目}{2018.01 -- 2018.04}{加利福尼亚， 美国}
+		\begin{itemize}
+			\item 基于Google开源项目，对图片及视频中出现的常见物体进行识别及追踪
+			\item （视频）通过连续位置追踪确定目标并对其做简单行为判定（对视频质量要求高，运算成本大）
+		\end{itemize}
+		
+		\divider
+		
+		\cvevent{\textbf{对Alzheimer's Disease病人基因与进行数据挖掘}}{研究生个人项目}{2016.01 -- 2016.12}{密苏里， 美国}
+		\begin{itemize}
+			\item 使用华盛顿圣路易斯大学医学院老年痴呆症病人以及对照组正常人的基因片段进行数据挖掘，对病人与非病人的基因进行分类
+			\item 对较大规模数据进行清洗与标准化
+			\item 对8000多个基因维度进行维度分析，缩小可能为致病基因的范围
+			\item 学习并练习了数据挖掘相关的基础方法，包括各种回归分析、决策树、临近算法、SVM等
+		\end{itemize}
+		
+		\divider
+		
+		\cvevent{\textbf{生物医学图像处理几何运算}}{研究生个人项目}{2015.08 -- 2015.12}{密苏里， 美国}
+		\begin{itemize}
+			\item 使用Mathematica对学校医学院的图片素材进行分析与处理，主要达到的功能包括精确寻找CT骨骼结构和寻找MRI肿瘤位置与轮廓等
+			\item 使用Mathematica对骨骼、器官进行3D建模并进行以下处理：寻找主体、体积计算、表面积计算、模型锐化与平滑化、模型化简等
+		\end{itemize}
+		
+		\divider
+		
+		\cvevent{网站爬虫抢购插件}{个人项目}{2017.12 -- 2018.4}{加利福尼亚， 美国}
+		鉴于如Supreme等潮牌，尤其联名款的商品常常被一抢而空的情况，考虑到需求远远大于市场，利用Python写了一个定时抢单的脚本。脚本特点如下：
+		\begin{itemize}
+			\item 使用代理服务器实现高并发防止IP被封
+			\item 可个性化修改需要抢的数量及商品
+			\item 直接对html页面进行解析，解决部分改版后不能用的问题
+		\end{itemize}
+		
+		\columnbreak
+		
+		\cvevent{图片验证码识别}{北京三点一刻科技有限公司 \space 算法工程师}{2018.06 -- 2018.07}{北京}
+		根据各个以图片为验证码的网站，包括数字、大小写字母识别；鼠标滑块；按顺序选字等图像人机验证的生成逻辑，按照下列步骤实现对人机验证的突破
+		\begin{itemize}
+			\item 识别机制
+				\subitem 分析验证码生成逻辑
+				\subitem 仿制验证码生成器从而提供无限量训练数据
+				\subitem 根据不同验证码特点设定突破步骤
+				\subitem 搭建模型并进行训练
+				\subitem 根据训练过程和测试结果调参重复训练
+				\subitem 将正确率合格的模型封装上线
+			\item 成果
+				\subitem 对本平台网站图片识别率达$99\%$
+				\subitem 对外部平台的图片验证码识别率根据复杂程度从$50\% \sim 85\%$不等
+		\end{itemize}
+		
+		\divider
+		
+		\cvevent{数据分析与征信}{北京三点一刻科技有限公司 \space 算法工程师}{2018.05 -- 2018.08}{北京}
+		\begin{itemize}
+			\item 根据平台数据以及爬取的外部平台数据实现对营销需求、甲方、乙方的多维度评分。评分系统通过比较分类中其他项目归一化，并实时更新，基本不用维护。
+			\item 评论文本打标签、提取句子主干、分类
+			\item 需求统一化分类
+			\item 分析各分类下需求描述的关键信息点，使用TF-IDF和TextRank为基础的模型对需求描述中非结构化信息点进行分析评价，并估算描述信息完整度
+			\item 对每个用户（公司/个人）根据百度精确搜索获得的条目数确定其品牌、影响力
+			\item 根据相关信息，使用统计学方法获取其他维度（共13个）评分
+		\end{itemize}
+		
+		\divider
+		
+		\cvevent{吃豆小人（Pacman）AI设计}{研究生个人项目}{2015.08 --  2015.12}{密苏里， 美国}
+		\begin{itemize}
+			\item 使用Python设计了吃豆人AI，使用启发法，强化学习法和Bayes Nets等完成了对基本吃豆，躲鬼吃豆的快速导航AI
+		\end{itemize}
+		
+	\end{multicols}
+	
+\end{fullwidth}
+
+
+%% If the NEXT page doesn't start with a \cvsection but you'd
+%% still like to add a sidebar, then use this command on THIS
+%% page to add it. The optional argument lets you pull up the
+%% sidebar a bit so that it looks aligned with the top of the
+%% main column.
+% \addnextpagesidebar[-1ex]{page3sidebar}
+
+
+\end{document}
