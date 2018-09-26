@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.9.16)  26 SEP 2018 00:27
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.9.16)  27 SEP 2018 01:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1165,13 +1165,13 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 Requested font "Lato" at 9.0pt
- -> @^^ã^^ÿ/^^(U
+ -> ^^ ^^\^^M^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> 
+ -> ^^à^^[^^M^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> ^^ð^^å^^ÿ/^^(U
+ -> P^^_^^M^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> ^^ð^^å^^ÿ/^^(U
+ -> P^^_^^M^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
  -> 
 Requested font "Lato/B/OT" at 9.0pt
@@ -1209,17 +1209,17 @@ Requested font "Lato/OT" at 9.0pt
 Requested font "Lato/OT" at 9.0pt
  -> 
 Requested font "Lato/B/OT" at 9.0pt
- -> ^^ðe^^/^^(U
+ -> P^^*^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> ^^ðe^^/^^(U
+ -> P^^*^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> ^^ðe^^/^^(U
+ -> P^^*^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> ^^ðe^^/^^(U
+ -> P^^*^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1292,37 +1292,37 @@ Requested font "Lato/BI/OT" at 9.0pt
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 Requested font "Lato" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1395,37 +1395,37 @@ Requested font "Lato/BI/OT" at 9.0pt
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 Requested font "Lato" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1498,37 +1498,37 @@ Requested font "Lato/BI/OT" at 9.0pt
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 Requested font "Lato" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1601,37 +1601,37 @@ Requested font "Lato/BI/OT" at 9.0pt
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 Requested font "Lato" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1654,38 +1654,38 @@ Requested font "Lato/BI/OT" at 9.0pt
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 Requested font "Lato" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 \g__fontspec_family_Lato_int=\count401
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/B/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/I/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 Requested font "Lato/BI/OT" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1765,7 +1765,7 @@ LaTeX Font Info:    Font shape `TU/Lato(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 148.
 Requested font "Lato/OT:script=latn;language=DFLT;+liga;+tnum;+lnum;mapping=tex
 -text;" at 9.0pt
- -> @^^^^/^^(U
+ -> ^^ S+^^Ý^^IV
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ctex/ctex.sty
 Package: ctex 2018/01/28 v2.4.12 Chinese adapter in LaTeX (CTEX)
@@ -2049,7 +2049,7 @@ LaTeX Font Info:    Font shape `TU/Lato(0)/m/it' will be
 (Font)              scaled to size 9.0pt on input line 316.
 Requested font "Lato/I/OT:script=latn;language=DFLT;+liga;+tnum;+lnum;mapping=t
 ex-text;" at 9.0pt
- -> ^^0j^^ÿ/^^(U
+ -> ^^Ð^^$^^L^^Ý^^IV
 LaTeX Font Info:    Font shape `TU/Lato(0)/bx/n' will be
 (Font)              scaled to size 9.0pt on input line 356.
 Requested font "Lato/B/OT:script=latn;language=DFLT;+liga;+tnum;+lnum;mapping=t
@@ -2508,7 +2508,7 @@ LaTeX Font Info:    Font shape `TU/Lato(0)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 743.
 Requested font "Lato/OT:script=latn;language=DFLT;+liga;+tnum;+lnum;mapping=tex
 -text;" at 7.0pt
- -> ^^ ^^^^-/^^(U
+ -> ^^ÀL;^^Ý^^IV
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2775,7 +2775,7 @@ LaTeX Font Info:    Font shape `TU/Lato(0)/m/n' will be
 (Font)              scaled to size 17.28pt on input line 74.
 Requested font "Lato/OT:script=latn;language=DFLT;+liga;+tnum;+lnum;mapping=tex
 -text;" at 17.28pt
- -> ^^ðu^^-/^^(U
+ -> P^^/:^^Ý^^IV
 LaTeX Font Info:    Font shape `TU/Lato(0)/bx/n' will be
 (Font)              scaled to size 17.28pt on input line 74.
 Requested font "Lato/B/OT:script=latn;language=DFLT;+liga;+tnum;+lnum;mapping=t
@@ -2844,12 +2844,12 @@ LaTeX Font Info:    Font shape `TU/Lato(0)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 6.
 Requested font "Lato/OT:script=latn;language=DFLT;+liga;+tnum;+lnum;mapping=tex
 -text;" at 12.0pt
- -> ^^0^^A^^F0^^(U
+ -> ^^ yS^^Ý^^IV
 LaTeX Font Info:    Font shape `TU/Lato(0)/bx/n' will be
 (Font)              scaled to size 12.0pt on input line 6.
 Requested font "Lato/B/OT:script=latn;language=DFLT;+liga;+tnum;+lnum;mapping=t
 ex-text;" at 12.0pt
- -> ^^Ð
+ -> `xS^^Ý^^IV
 Requested font "[FandolSong-Bold.otf]/OT" at 12.0pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/public/fandol/FandolSong-Bold.
 otf
@@ -2892,10 +2892,10 @@ Package logreq Info: Writing requests to 'resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43425 strings out of 493007
- 915002 string characters out of 6136719
- 1373688 words of memory out of 5000000
- 46796 multiletter control sequences out of 15000+600000
+ 43435 strings out of 493007
+ 915729 string characters out of 6136719
+ 1375689 words of memory out of 5000000
+ 46806 multiletter control sequences out of 15000+600000
  537185 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,87p,10391b,788s stack positions out of 5000i,500n,10000p,200000b,80000s
